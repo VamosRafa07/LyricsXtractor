@@ -14,9 +14,9 @@ def maingl(files,a,l,o,s):
     There are two ways to use this tool :-
         
 
-        1. lyrics -> Prompt will ask you for the artist and song name. The obtained lyrics will be printed on the standard output.
+        1. lyrics-dl -> Prompt will ask you for the artist and song name. The obtained lyrics will be printed on the standard output.
 
-        2. lyrics [FILES] -> Tool will access artist and song information from the metadata of the provided files, and prints the obtained lyrics on the standard output.
+        2. lyrics-dl [FILES] -> Tool will access artist and song information from the metadata of the provided files, and prints the obtained lyrics on the standard output.
 
     Note : Only mp3 files supported for now. Support for other files coming soon!
 
