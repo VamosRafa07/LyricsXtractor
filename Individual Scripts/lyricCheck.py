@@ -2,7 +2,7 @@
 
 import os, eyed3
 dict={}
-eyed3.log.setLevel("ERROR") #only print errors, not wornings
+eyed3.log.setLevel("ERROR") #only print errors, not warnings
 for subdir, dir, files in os.walk(os.getcwd()):
     for fileName in files:
         if fileName.endswith(".mp3"):
